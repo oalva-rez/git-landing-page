@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: white;
+}
+nav {
+    background-color: #1f2937;
+    display: flex;
+    
+}
+nav > * {
+    color: white;
+}
