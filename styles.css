@@ -6,11 +6,23 @@
 .logo{
     color: white;
 }
-nav {
-    background-color: #1f2937;
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: grey;
     display: flex;
-    
+    gap: 1rem;
 }
-nav > * {
-    color: white;
+
+.nav-list li {
+    
+    background-color: pink;
+    
+    outline: 5px solid black;
+}
+
+.logo {
+    margin-right: auto;
 }
