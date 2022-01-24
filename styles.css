@@ -117,3 +117,41 @@
     color: white;
     font-size: 20px;  
 }
+
+.info-header {
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    padding: 60px 0;
+}
+
+.info {
+    display: flex;
+    width: 1500px;
+    margin: auto;
+    justify-content: center;
+    padding-bottom: 196px;
+    gap: 60px;
+    
+    
+}
+
+.rectangle {
+    height: 250px;
+    width: 250px;
+    outline: 4px solid #3882f6;
+    margin: auto;
+    border-radius: 10px;
+    
+    
+    
+
+}
+
+.info-text {
+    text-align: center;
+    font-size: 24px;
+    color: #1f2937;
+    margin-top: 10px;
+    width: 250px;
+}
