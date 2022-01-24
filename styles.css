@@ -55,13 +55,10 @@
     margin: 0;
     justify-content: center;
     display: flex; 
-    
-    
 }
 
 .hero-container > * {
     width: 750px;  
-    
 }
 
 .hero-text-container {
@@ -91,23 +88,16 @@
     background: none;
     background-color: #3882f6;
     color: white;
-
-    
 }
 
 
 .hero-img {
-    
     height: 304px;
     align-self: center;
-    
     display: flex;
-    
-    
 }
 
 .imgtext {
-    
     text-align: center;
     margin: auto;
     line-height: 304px;
@@ -131,9 +121,7 @@
     margin: auto;
     justify-content: center;
     padding-bottom: 196px;
-    gap: 60px;
-    
-    
+    gap: 60px; 
 }
 
 .rectangle {
@@ -142,10 +130,6 @@
     outline: 4px solid #3882f6;
     margin: auto;
     border-radius: 10px;
-    
-    
-    
-
 }
 
 .info-text {
@@ -154,4 +138,80 @@
     color: #1f2937;
     margin-top: 10px;
     width: 250px;
+}
+
+.inspo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    font-size: 56px;
+    font-style: italic;
+    color: white;
+    background-color: #1f2937d8 ;
+}
+
+.info-size {
+    width: 1300px;
+}
+
+.inspo-container > * {
+    width: 1300px;
+}
+
+.inspo-author {
+    font-style: normal;
+    color: white;
+    text-align: right;
+    width: auto;
+    font-size: 42px;
+    font-weight: bolder;
+    
+}
+
+.cta-container {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cta-card-container {
+    align-self: center;
+    width: 1536px;
+    height: 222px;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    border-radius: 10px;
+    padding: 0 155px;
+}
+
+.cta,
+.ctatext {
+    font-size: 35px;
+    color: white;
+}
+.ctatext {
+    font-size: 25px;
+}
+.sign-up {
+    font-size: 30px;
+    padding: 10px 55px;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: white;
+    border: 3px solid white;
+}
+
+footer {
+    text-align: center;
+    height: 135px;
+    line-height: 135px;
+    color: white;
+    background-color: #1f2937;
+    font-size: 20px;
 }
