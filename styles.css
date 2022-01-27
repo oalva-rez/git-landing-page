@@ -45,7 +45,11 @@
     font-size: 24px;
 }
 
-#logo:link {
+.nav-link:visited {
+    color: #f9faf8;
+}
+
+#logo:visited {
     color: #f9faf8;
 }
 
