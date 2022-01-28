@@ -9,7 +9,14 @@
 .nav-container {
     display: flex;
     justify-content: center;
-    background-color: #1f2937;  
+    background-color: #344880;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    
+    
+     
 }
 
 .logo{
@@ -27,7 +34,9 @@
 
 .nav-list li {
     align-self: center;
+    
     color: white;
+    
 }
 
 .logo-container {
@@ -54,12 +63,15 @@
 }
 
 .hero-container {
-    background-color: #1f2937d8;
+    background-image: url(./images/insurance-photo.jpg);
+    background-size: cover;
     height: 650px;
     margin: 0;
     justify-content: center;
     display: flex; 
+    gap: 4rem;
 }
+
 
 .hero-container > * {
     width: 750px;  
@@ -103,7 +115,6 @@
 
 .imgtext {
     text-align: center;
-    margin: auto;
     line-height: 304px;
     background-color: #6d747d;
     width: 700px;
